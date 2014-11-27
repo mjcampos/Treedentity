@@ -23,29 +23,19 @@ ul.navigation {
 li.nav_description {
     display: inline;
 }
-
 #wrap {
     width: auto;
     height: auto;
 }
-
 .left_box {
     width: 200px;
     height: 200px;
     float: left;
 }
-
 .right_box {
     width: 200px;
     height: 200px;
     float: right;
-}
-#small_box{
-    background-color: pink;
-    width: 80px;
-    height: 80px;
-    border: 2px solid navy;
-    float: left;
 }
 #footer {
     width:100%;
@@ -54,4 +44,28 @@ li.nav_description {
     bottom:0;
     left:0;
     font-size: 21px;
+}
+#container {
+    height: 200px;
+    text-align: justify;
+}
+.box1, .box2, .box3, .box4 {
+    width: 200px;
+    height: 200px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1
+}
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+.box1, .box3 {
+    background: #ccc
+}
+.box2, .box4 {
+    background: #0ff
 }
