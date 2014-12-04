@@ -28,11 +28,13 @@ li.nav_description {
     width: 200px;
     height: 200px;
     float: left;
+    margin-left: 200px;
 }
 .right_box {
     width: 200px;
     height: 200px;
     float: right;
+    margin-right: 200px;
 }
 #footer {
     width:100%;
@@ -61,8 +63,8 @@ li.nav_description {
     line-height: 0
 }
 .box1, .box3 {
-    background: #ccc
+    background: #33cc66
 }
 .box2, .box4 {
-    background: #0ff
+    background: #33cc66
 }
