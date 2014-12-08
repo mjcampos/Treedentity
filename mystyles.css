@@ -62,9 +62,6 @@ li.nav_description {
     font-size: 0;
     line-height: 0
 }
-.box1, .box3 {
-    background: #33cc66
-}
-.box2, .box4 {
+.box1, .box2, .box3, .box4 {
     background: #33cc66
 }
