@@ -1,0 +1,8 @@
+{
+	"name": "treedentity",
+	"description": "Tree leaf identification website for Peterson Middle School in Sunnyvale",
+	"dependencies": {
+		"body-parser": "^1.10.1",
+		"express": "^4.10.0"
+	}
+}
