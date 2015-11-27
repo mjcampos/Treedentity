@@ -1,37 +1,54 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+
+        <link rel="shortcut icon" href="assets/leaf_footprint.jpg">
+
         <title>Treedentity</title>
-        
-        <meta name="designer" content="Michael Campos">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="styles.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+        <!-- Angular scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular-route.min.js"></script>
+
+        <script type="text/javascript" src="script.js"></script>
     </head>
     
     <body>
-        <!--This div sets the header and it copied on all pages-->
-        <div id="header">
-            <h1>Treedentity</h1>
+        <div class="container">
+            <nav>
+                <h1>Treedentity</h1>
+
+                <ul class="pager">
+                    <li class="previous"><a href="#">Home</a></li>
+                    <li class="next"><a href="http://www.peterson.scusd.net/natureareafall2014.mov">About The Nature Area</a></li>
+                </ul>
+            </nav>
+
+            <!-- Main Body -->
+            <center>
+                <h2>Welcome to the Bryan Osborne Nature Center</h2>
+                <h3>Lets take a walk through the nature center to find out what tree you are looking at</h3>
+                <h3>Click on the footstep to get started</h3>
             
-            <ul class="navigation">
-                <li class="nav_description"><a href="index.html">Home</a></li>
-                <li class="nav_description" style="position:absolute; right:25px"><a href="http://www.peterson.scusd.net/natureareafall2014.mov">About The Nature Area</a></li>
-            </ul>
-            <hr/>
-        </div>
-        <!--This is the main body-->
-        <h2>Welcome to the Bryan Osborne Nature Center!</h2>
-        <h3>Lets take a walk through the nature center to find out what tree you are looking at.</h3>
-        <h3>Click on the footstep to get started.</h3>
-        
-        <center>
-            <a href = "page1.html">
-                <img src="assets/leaf_footprint.jpg" alt="My Image" width="317" height="250" border="2">
-            </a>
-        </center>
-        
-        <!--Footer div for credit-->
-        <div id="footer">
-            <p>Designed by Nishita Battula, Aditi Bellary, Michael Campos, and Tejaswi Sagiraju  --  <a href = "assets/class_presentation.pdf">About the project here</a></p>
+                <a href = "page1.html">
+                    <img src="assets/leaf_footprint.jpg" alt="My Image" width="317" height="250" border="2">
+                </a>
+            </center>
+
+            <footer>
+                <p>Designed by Nishita Battula, Aditi Bellary, Michael Campos, and Tejaswi Sagiraju  --  <a href = "assets/class_presentation.pdf">About the project here</a></p>
+            </footer>
         </div>
     </body>
 </html>
