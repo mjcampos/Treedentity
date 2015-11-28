@@ -11,12 +11,11 @@ h1 {
     color: green;
     text-align: center;
 }
-.pager li > a {
-    font-size: 28px;
-    background-color: transparent;
+.row {
+    margin-top: 30px;
 }
-.pager li > a:hover {
-    background-color: transparent;
+.row a {
+    font-size: 30px;
 }
 footer {
     font-size: 20px;
@@ -33,10 +32,6 @@ ul.navigation {
 }
 li.nav_description {
     display: inline;
-}
-#wrap {
-    width: auto;
-    height: auto;
 }
 .left_box {
     width: 200px;

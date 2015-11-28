@@ -24,27 +24,19 @@
         <script type="text/javascript" src="script.js"></script>
     </head>
     
-    <body>
+    <body ng-app="myApp">
         <div class="container">
             <nav>
                 <h1>Treedentity</h1>
 
-                <ul class="pager">
-                    <li class="previous"><a href="#">Home</a></li>
-                    <li class="next"><a href="http://www.peterson.scusd.net/natureareafall2014.mov">About The Nature Area</a></li>
-                </ul>
+                <div class="row">
+                    <a class="col-sm-4" href="#/">Home</a>
+                    <a class="col-sm-4 col-sm-offset-4" href="assets/natureareafall2014.mov">About The Nature Area</a>
+                </div>
             </nav>
 
             <!-- Main Body -->
-            <center>
-                <h2>Welcome to the Bryan Osborne Nature Center</h2>
-                <h3>Lets take a walk through the nature center to find out what tree you are looking at</h3>
-                <h3>Click on the footstep to get started</h3>
-            
-                <a href = "page1.html">
-                    <img src="assets/leaf_footprint.jpg" alt="My Image" width="317" height="250" border="2">
-                </a>
-            </center>
+            <div ng-view=''></div>
 
             <footer>
                 <p>Designed by Nishita Battula, Aditi Bellary, Michael Campos, and Tejaswi Sagiraju  --  <a href = "assets/class_presentation.pdf">About the project here</a></p>
