@@ -11,11 +11,18 @@ h1 {
     color: green;
     text-align: center;
 }
+h2, h3 {
+    text-align: center;
+}
 .row {
     margin-top: 30px;
 }
 .row a {
     font-size: 30px;
+}
+.box1, .box2, .box3, .box4 {
+    height: 200px;
+    background: #33cc66;
 }
 footer {
     font-size: 20px;
@@ -44,21 +51,4 @@ li.nav_description {
     height: 200px;
     float: right;
     margin-right: 200px;
-}
-.box1, .box2, .box3, .box4 {
-    width: 200px;
-    height: 200px;
-    vertical-align: top;
-    display: inline-block;
-    *display: inline;
-    zoom: 1
-}
-.stretch {
-    width: 100%;
-    display: inline-block;
-    font-size: 0;
-    line-height: 0
-}
-.box1, .box2, .box3, .box4 {
-    background: #33cc66
 }
