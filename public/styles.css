@@ -6,49 +6,32 @@ body {
     background-size: cover;
     padding-bottom: 70px;
 }
+
 h1 {
     font-size: 50px;
     color: green;
     text-align: center;
 }
+
 h2, h3 {
     text-align: center;
 }
+
 .row {
     margin-top: 30px;
 }
+
 .row a {
     font-size: 30px;
 }
+
 .box1, .box2, .box3, .box4 {
     height: 200px;
     background: #33cc66;
 }
+
 footer {
     font-size: 20px;
     position: absolute;
     bottom: 0;
-}
-
-
-ul.navigation {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    font-size:28px;
-}
-li.nav_description {
-    display: inline;
-}
-.left_box {
-    width: 200px;
-    height: 200px;
-    float: left;
-    margin-left: 200px;
-}
-.right_box {
-    width: 200px;
-    height: 200px;
-    float: right;
-    margin-right: 200px;
 }
