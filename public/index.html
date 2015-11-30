@@ -31,9 +31,29 @@
 
                 <div class="row">
                     <a class="col-sm-4" href="#/">Home</a>
-                    <a class="col-sm-4 col-sm-offset-4" href="assets/natureareafall2014.mov">About The Nature Area</a>
+                    <div class="collapse navbar-collapse">
+                        <a class="col-sm-4 col-sm-offset-4" data-toggle="modal" data-target="#myModal">About The Nature Area</a>
+                    </div>
                 </div>
             </nav>
+
+            <!-- Navbar Modal-->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">The Nature Area</h4>
+                        </div>
+
+                        <div class="modal-body">
+                            <video width="480" height="360" controls>
+                                <source src="assets/natureareafall2014.mov" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <!-- Main Body -->
             <div ng-view=''></div>
