@@ -12,6 +12,10 @@ body {
     font-size: 16px;
 }
 
+.breadcrumb > li + li:before {
+    content: ">";
+}
+
 h1 {
     font-size: 50px;
     color: green;
@@ -38,6 +42,7 @@ img {
 .box {
     height: 200px;
     background: #33cc66;
+    border-radius: 20px;
 }
 
 footer {
