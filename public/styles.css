@@ -4,7 +4,12 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-bottom: 70px;
+}
+
+.breadcrumb {
+    margin: 10px 0px;
+    background-color: transparent;
+    font-size: 16px;
 }
 
 h1 {
@@ -25,13 +30,18 @@ h2, h3 {
     font-size: 30px;
 }
 
-.box1, .box2, .box3, .box4 {
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.box {
     height: 200px;
     background: #33cc66;
 }
 
 footer {
     font-size: 20px;
-    position: absolute;
     bottom: 0;
+    margin-top: 20px;
 }
